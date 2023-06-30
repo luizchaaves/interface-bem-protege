@@ -16,11 +16,6 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-  #root{
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-
   img{
     max-width: 100%;
     height: auto;
