@@ -11,12 +11,13 @@ const Menu = ({ mobile }: Props) => {
 
   const sections: NodeListOf<HTMLElement> =
     document.querySelectorAll('main section[id]');
+
   window.addEventListener('scroll', () => {
     activateMenuCurrentSection();
   });
 
   const activateMenuCurrentSection = () => {
-    const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4;
+    const checkpoint = window.scrollY + (window.innerHeight / 8) * 4;
     for (const section of sections) {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.offsetHeight;
@@ -24,6 +25,7 @@ const Menu = ({ mobile }: Props) => {
 
       const checkpointStart = checkpoint >= sectionTop;
       const checkpointEnd = checkpoint <= sectionTop + sectionHeight;
+
       if (checkpointStart && checkpointEnd) {
         setActiveNav(`#${sectionId}`);
       }

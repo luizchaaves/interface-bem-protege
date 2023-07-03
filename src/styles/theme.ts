@@ -3,6 +3,7 @@ const theme = {
     h1: '64px',
     h2: '48px',
     h3: '24px',
+    large: '40px',
     high: '24px',
     normal: '20px',
     small: '16px',
@@ -17,7 +18,9 @@ const theme = {
   spaccing: {
     'sp-0-5': '8px',
     'sp-1': '16px',
+    'sp-1-5': '24px',
     'sp-2': '32px',
+    'sp-3': '48px',
     'sp-4': '64px',
     'sp-8-5': '136px',
     'sp-10': '160px',

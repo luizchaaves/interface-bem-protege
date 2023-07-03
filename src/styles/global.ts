@@ -22,6 +22,7 @@ export default createGlobalStyle`
   }
 
   button{
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     border: none;
     outline: none;
