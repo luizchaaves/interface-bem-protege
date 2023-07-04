@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Bem Protege Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o código-fonte da landing page do projeto Bem Protege. Essa landing page foi desenvolvida como parte do teste de front-end para a empresa Bem Protege.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 📋 Sobre
 
-### `npm start`
+A Bem Protege é uma empresa especializada em serviços de proteção veicular. Esta landing page foi criada como uma demonstração da interface da empresa, apresentando informações sobre a empresa, os serviços oferecidos, as coberturas disponíveis, dúvidas frequentes e informações de contato.
+## ⚒️ Recursos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A landing page contém as seguintes seções:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Sobre**: Nesta seção, você encontrará informações detalhadas sobre a empresa Bem Protege, sua missão e seus valores.
 
-### `npm test`
+- **Serviços**: Aqui são apresentados os serviços oferecidos pela Bem Protege, destacando os benefícios e vantagens para os clientes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Coberturas**: Nesta seção, são descritas as diversas coberturas disponíveis para os segurados da Bem Protege, incluindo danos materiais, roubo e furto, assistência 24 horas e muito mais.
 
-### `npm run build`
+- **Dúvidas**: Aqui estão respondidas as perguntas mais frequentes sobre os serviços da Bem Protege, fornecendo informações adicionais para os interessados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Contato**: Na seção de contato, você encontrará os detalhes de contato da empresa, incluindo telefone, e-mail e endereço.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O design da landing page foi criado no Figma. Para visualizar o wireframe e o design, acesse o [link do projeto no Figma](https://www.figma.com/file/azID9cAtWQ26Y1eAXLMQYs/Bem-Protege?type=design&node-id=0%3A1&mode=design&t=hIxViZHudW1RxHPl-1)
+## 💻 Tecnologias
 
-### `npm run eject`
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ReactJS
+- TypeScript
+## ⚙️ Instalação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Certifique-se de ter o Node.js instalado em sua máquina.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Faça o clone deste repositório em sua máquina local.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Instale as dependências do projeto.
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicie o servidor de desenvolvimento
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
+
+Abra o seu navegador e acesse http://localhost:3000 para visualizar a landing page.
